@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header {
+    background-image: url(FOOD.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 50px;
+    margin: 0px 15px;
+
+
+}
+
+.logo img {
+    display: flex;
+    background-attachment: fixed;
+    box-shadow: inset;
+    border-radius: 50px;
+
+}
+
+.brand {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+
+.brand p {
+    font-size: 15px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+    color: white;
+
+}
+
+.navigation ul a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 15px;
+
+}
+
+.navigation ul a:hover {
+    border-bottom: 1px solid aqua;
+}
+
+h3 {
+    margin: 50px 0px 30px 0px;
+}
+
+.discription {
+    color: lightslategrey;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.menu {
+    /* background-position: center; */
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+    padding: 40px 50px;
+
+
+}
+
+.menu ul {
+    border: 2px rgb(15, 15, 14);
+    margin: 10px;
+    padding: 10px 30px;
+    color: lightgreen;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.menu ul:hover {
+    background-color: aqua;
+    color: pink;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.items div {
+    width: 23%;
+    margin-bottom: 80px;
+    text-align: center;
+
+
+}
+
+.items div img {
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.items div h3 {
+    color: chartreuse;
+    line-height: 25px;
+    margin-bottom: 20px;
+
+}
+
+.items div p {
+    color: dimgray;
+    line-height: 20px;
+    margin-bottom: 20px;
+
+}
+
+.items div span {
+    color: rgba(179, 0, 255, 0.978);
+    font-size: 20px;
+}
+
+.details {
+    display: flex;
+    margin: 60px 0px;
+}
+
+.details div img {
+    margin: 10px 50px;
+    width: 600px;
+    height: 300px;
+}
+
+.details div h2 {
+    color: forestgreen;
+    font-size: 25px;
+}
+
+.details div p {
+    color: dimgray;
+    line-height: 35px;
+    margin-bottom: 15px;
+}
+
+.details div a {
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 5px 15px;
+    cursor: pointer;
+    font-size: 20px;
+
+
+}
+
+.details div a:hover {
+    background-color: aquamarine;
+
+}
+
+.footer {
+    text-align: center;
+    font-size: 15px;
+    color: gray;
+    margin-top: 40px;
+    padding: 20px 15px;
+}
